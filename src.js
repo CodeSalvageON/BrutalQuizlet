@@ -6,6 +6,7 @@ const rounds_in_clip = document.querySelector(".StudentPlayingHeader-progress");
 // Functions 
 
 function initText () {
+  rounds_in_clip.innerText = rounds_in_clip.innerText.replace(" rounds left in clip.", "");
   rounds_in_clip.innerText = rounds_in_clip.innerText + " rounds left in clip.";
 }
 
