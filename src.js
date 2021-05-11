@@ -12,4 +12,4 @@ function initText () {
 
 // Begin brutalizing the page
 
-setInterval(initText, 500);
+setInterval(initText, 1000);
